@@ -1,0 +1,15 @@
+import turtle
+top=turtle.Turtle()
+win=turtle.Screen()
+
+win.bgcolor("black")
+win.bgpic("j7.gif")
+top.pensize(2)
+top.speed(0)
+top.color("yellow")
+for i in range(6):
+    for colors in ["red","blue","green","white","yellow","pink","purple"]:
+        top.color(colors)
+        top.circle(100)
+        top.left(10)
+top.hideturtle()
